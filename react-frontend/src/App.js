@@ -19,7 +19,7 @@ function App() {
                   <Route exact path = "/edit-employee/:id" Component={AddEmployeeComponent}></Route>                           
               </Routes>
               </div>
-          <FooterComponent/>
+          {/* <FooterComponent/> */}
           </div>
       </Router>
     </div>    
